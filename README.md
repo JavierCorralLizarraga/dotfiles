@@ -1,4 +1,6 @@
 # dotfiles
+## LFRC
+en realidad esta genial asi como esta, pero desde que me mude a mac y mupdf no existe como binario executable tipo aplicacion, lo cual no me permite ponerla como default pdf viewer, entonces hackee mejor mi file explorer para que abra los pdfs con el comando de mupdf 
 
 ## macros.doskey 
 path 
