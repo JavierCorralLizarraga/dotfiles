@@ -5,7 +5,7 @@ set ignorecase true
 cmd open &{{
 case $(file --mime-type -Lb "$f") in
     application/pdf) mupdf-gl "$fx";;
-    *) for f in $fx; do mupdf-gl "$f" > /dev/null 2> /dev/null & done;;
+    *) for f in "$fx"; do $OPENER "$f" > /dev/null 2> /dev/null & done;;
 esac
 }}
 
